@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Welcome to my site!">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <title>Deep Patel</title>
+    <title>Deep Patel - Software developer for mobile</title>
 
     <!-- Add to homescreen for Chrome on Android -->
     <meta name="mobile-web-app-capable" content="yes">
@@ -14,8 +14,8 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="Material Design Lite">
-
-    <link href="https://fonts.googleapis.com/css?family=Ranga" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ranga">
+    <link rel="shortcut icon" type="image/png" href="./favicon.png"/>
 
     <style>
     .welcome-ribbon {
@@ -58,12 +58,10 @@
     }
 
     </style>
-    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
-    <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://afeld.github.io/emoji-css/emoji.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.blue-red.min.css">
-
     <link rel="stylesheet" href="./animate.min.css">
 </head>
 <!-- Hey smartass, stop looking at my code, you're not going to find anything here. Get a life nerd. -->
@@ -79,37 +77,48 @@
                     <div class="row" align="center">
                         <h2 class="welcome-header-text">Deep Patel</h2>
 
-                        <h4>Android guru, iOS fanboy, and NodeJS lover</h4>
+                        <h4>Android, iOS, and NodeJS Developer</h4>
                     </div>
 
-                    <p>I'm a Software Developer for mobile. I'm probably one of the most eclectic person you'll
-                        meet. I love writing code for Android and building useful things in NodeJS like a REST API's and web scraper</p>
+                    <p>I'm a Software Developer who specialises in mobile applications. I love writing code for Android and building new and exciting projects with NodeJS.
+                        I just started playing around with iOS and swift, it's pretty cool and interesting, I like it. I have more planned with iOS in the future.
+                        I'm currently working on learning React Native.
+                    </p>
 
-                        <p>This site is currently under construction but you can check out my Github and Linkedin accounts for more
-                            information about me and what I do.</p>
+                    <p>This site is currently under construction <i class="em em-construction"></i> ... it's a constant work in progress. BLOG coming soon!</p>
 
-                            <p>Add me on LinkedIn, don't be shy, I don't bite and I'm open to meeting new people. <i class="em em-grinning"></i> </p>
+                    <p>Add me on LinkedIn, don't be shy, I don't bite and I'm open to meeting new people. <i class="em em-grinning"></i> </p>
 
-                            <div class="row row-gravity-right" align="end">
+                    <div class="row row-gravity">
 
-                                <button type="button" class="mdl-button mdl-js-button mdl-button--icon mdl-button--colored">
-                                    <a id="social-bt-github" href="https://www.github.com/deeperthanyou" role="button"
-                                    class="social-btn-material social-btn-material__github-dark"></a>
-                                </button>
+                        <button id="resume-btn" type="button" class="mdl-button mdl-js-button">
+                            <a href="./resume.pdf" role="button"
+                            class="em em-file_folder"></a>
+                        </button>
 
-                                <button type="button" class="mdl-button mdl-js-button mdl-button--icon mdl-button--colored">
-                                    <a id="social-bt-linkedin" href="https://www.linkedin.com/in/deeperthanyou" role="button"
-                                    class="social-btn-material social-btn-material__linkedin-dark"></a>
-                                </button>
-                            </div>
+                        <button id="github-btn" type="button" align="end" class="mdl-button mdl-js-button mdl-button--icon mdl-button--colored">
+                            <a id="social-bt-github" href="https://www.github.com/deeperthanyou" role="button"
+                            class="social-btn-material social-btn-material__github-dark"></a>
+                        </button>
 
-                        </div>
-
+                        <button id="linkedin-btn" type="button" align="end" class="mdl-button mdl-js-button mdl-button--icon mdl-button--colored">
+                            <a id="social-bt-linkedin" href="https://www.linkedin.com/in/deeperthanyou" role="button"
+                            class="social-btn-material social-btn-material__linkedin-dark"></a>
+                        </button>
                     </div>
 
-                </main>
+
+
+                </div>
+                <span data-mdl-for="resume-btn" for="resume-btn" class="mdl-tooltip mdl-tooltip--right"><strong>Download my resume</strong></span>
+                <span data-mdl-for="github-btn" for="github-btn" class="mdl-tooltip mdl-tooltip--right"><strong>Check out my GitHub</strong></span>
+                <span data-mdl-for="linkedin-btn" for="linkedin-btn" class="mdl-tooltip mdl-tooltip--right"><strong>Add me on LinkedIn</strong></span>
+
             </div>
 
-            <script defer src="https://code.getmdl.io/1.1.3/material.min.js"></script>
-        </body>
-        </html>
+        </main>
+    </div>
+
+    <script defer src="https://code.getmdl.io/1.1.3/material.min.js"></script>
+</body>
+</html>
