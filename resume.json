@@ -1,0 +1,64 @@
+{
+  "basics": {
+    "name": "Deep Patel",
+    "label": "Software Developer, Android developer, iOS developer",
+    "picture": "https://avatars0.githubusercontent.com/u/12769444.jpeg",
+    "email": "deep7176@gmail.com",
+    "phone": "(609) 529-2926",
+    "website": "http://deeperthanyou.me",
+    "summary": "A software developer with over 4 years of experience with mobile that really knows how to write code to delight your users with a gorgeous UI and beautiful animations. Someone who knows how to make users happy with an app that works and looks good.",
+    "location": {
+      "address": "250 Central Ave",
+      "postalCode": "NJ 07103",
+      "city": "Newark",
+      "countryCode": "US",
+      "region": "Newark"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "deeperthanyou",
+        "url": "https://github.com/deeperthanyou"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Rig Checks",
+      "position": "CEO/Founder",
+      "website": "https://rigchecksems.com",
+      "startDate": "October 2016",
+      "endDate": "Present",
+      "summary": "An inventory management system used by EMT's.",
+      "highlights": [
+        "Built the backend using the"
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Android Development",
+      "level": "Master",
+      "keywords": [
+        "Android",
+        "Java"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Gujarati",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [],
+  "references": []
+}
